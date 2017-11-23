@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="s98-lH-in6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="s98-lH-in6">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,6 +14,10 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="VerificationCode" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eZ2-BB-oVp"/>
+                        <viewControllerLayoutGuide type="bottom" id="1g3-y2-uAR"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -50,12 +54,11 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="0kb-Qd-jab" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="78" id="DA7-bx-drM"/>
-                            <constraint firstItem="0kb-Qd-jab" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Uat-pq-9V1"/>
-                            <constraint firstItem="pud-Aw-r1e" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="cs1-kI-DRQ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pud-Aw-r1e" secondAttribute="bottom" constant="20" id="i6Z-tX-Mnc"/>
+                            <constraint firstItem="0kb-Qd-jab" firstAttribute="top" secondItem="eZ2-BB-oVp" secondAttribute="bottom" constant="78" id="DA7-bx-drM"/>
+                            <constraint firstItem="0kb-Qd-jab" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uat-pq-9V1"/>
+                            <constraint firstItem="pud-Aw-r1e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cs1-kI-DRQ"/>
+                            <constraint firstItem="1g3-y2-uAR" firstAttribute="top" secondItem="pud-Aw-r1e" secondAttribute="bottom" constant="20" id="i6Z-tX-Mnc"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="verify code view " id="5V9-3K-SFL"/>
                     <connections>

@@ -143,7 +143,6 @@ import UIKit
             
             textField.backgroundColor = UIColor.white
             textField.addTarget(self, action: #selector(VerifyView.textFieldDidChange(_:)), for: .editingChanged)
-            textField.delegate = self
             textField.tag = i
             
             // add layer for under line
@@ -224,16 +223,3 @@ import UIKit
 
 
 
-extension VerifyView : UITextFieldDelegate{
-    
-    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange,
-                   replacementString string: String) -> Bool
-    {
-        let maxLength = 1
-        let currentString: NSString = textField.text as! NSString
-        let newString: NSString =
-            currentString.replacingCharacters(in: range, with: string) as NSString
-        return newString.length <= maxLength
-    }
-    
-}
