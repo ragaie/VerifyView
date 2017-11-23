@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81CF7C261FC6FD2A003EB59C /* Screen Shot 2017-11-23 at 2.52.11 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 81CF7C251FC6FD24003EB59C /* Screen Shot 2017-11-23 at 2.52.11 PM.png */; };
+		81CF7C271FC6FD2D003EB59C /* Screen Shot 2017-11-23 at 2.56.38 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 81CF7C241FC6FD1B003EB59C /* Screen Shot 2017-11-23 at 2.56.38 PM.png */; };
 		81F361BC1FC5C93300094D9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F361BB1FC5C93300094D9E /* AppDelegate.swift */; };
 		81F361BE1FC5C93300094D9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F361BD1FC5C93300094D9E /* ViewController.swift */; };
 		81F361C11FC5C93300094D9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F361BF1FC5C93300094D9E /* Main.storyboard */; };
 		81F361C31FC5C93300094D9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81F361C21FC5C93300094D9E /* Assets.xcassets */; };
 		81F361C61FC5C93300094D9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F361C41FC5C93300094D9E /* LaunchScreen.storyboard */; };
+		81F361CE1FC5C96900094D9E /* VerifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F361CD1FC5C96900094D9E /* VerifyView.swift */; };
+		81F361D01FC5D9D000094D9E /* VerifyViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F361CF1FC5D9D000094D9E /* VerifyViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		81CF7C241FC6FD1B003EB59C /* Screen Shot 2017-11-23 at 2.56.38 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-11-23 at 2.56.38 PM.png"; sourceTree = "<group>"; };
+		81CF7C251FC6FD24003EB59C /* Screen Shot 2017-11-23 at 2.52.11 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-11-23 at 2.52.11 PM.png"; sourceTree = "<group>"; };
 		81F361B81FC5C93300094D9E /* VerificationCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerificationCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F361BB1FC5C93300094D9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81F361BD1FC5C93300094D9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		81F361C21FC5C93300094D9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81F361C51FC5C93300094D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81F361C71FC5C93300094D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81F361CD1FC5C96900094D9E /* VerifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyView.swift; sourceTree = "<group>"; };
+		81F361CF1FC5D9D000094D9E /* VerifyViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyViewDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,9 +43,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81CF7C231FC6FC19003EB59C /* screen shot */ = {
+			isa = PBXGroup;
+			children = (
+				81CF7C251FC6FD24003EB59C /* Screen Shot 2017-11-23 at 2.52.11 PM.png */,
+				81CF7C241FC6FD1B003EB59C /* Screen Shot 2017-11-23 at 2.56.38 PM.png */,
+			);
+			path = "screen shot";
+			sourceTree = "<group>";
+		};
 		81F361AF1FC5C93300094D9E = {
 			isa = PBXGroup;
 			children = (
+				81CF7C231FC6FC19003EB59C /* screen shot */,
+				81F361CF1FC5D9D000094D9E /* VerifyViewDelegate.swift */,
+				81F361CD1FC5C96900094D9E /* VerifyView.swift */,
 				81F361BA1FC5C93300094D9E /* VerificationCode */,
 				81F361B91FC5C93300094D9E /* Products */,
 			);
@@ -124,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				81F361C61FC5C93300094D9E /* LaunchScreen.storyboard in Resources */,
+				81CF7C271FC6FD2D003EB59C /* Screen Shot 2017-11-23 at 2.56.38 PM.png in Resources */,
+				81CF7C261FC6FD2A003EB59C /* Screen Shot 2017-11-23 at 2.52.11 PM.png in Resources */,
 				81F361C31FC5C93300094D9E /* Assets.xcassets in Resources */,
 				81F361C11FC5C93300094D9E /* Main.storyboard in Resources */,
 			);
@@ -136,7 +158,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81F361CE1FC5C96900094D9E /* VerifyView.swift in Sources */,
 				81F361BE1FC5C93300094D9E /* ViewController.swift in Sources */,
+				81F361D01FC5D9D000094D9E /* VerifyViewDelegate.swift in Sources */,
 				81F361BC1FC5C93300094D9E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8Z3K9T9U74;
+				DEVELOPMENT_TEAM = RKVSSJM9UR;
 				INFOPLIST_FILE = VerificationCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Chtar.VerificationCode;
@@ -290,7 +314,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8Z3K9T9U74;
+				DEVELOPMENT_TEAM = RKVSSJM9UR;
 				INFOPLIST_FILE = VerificationCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Chtar.VerificationCode;

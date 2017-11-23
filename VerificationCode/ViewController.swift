@@ -8,10 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController ,VerifyViewDelegate{
+  
 
+    
+    @IBOutlet weak var verifyCode: VerifyView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        verifyCode.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -21,5 +26,17 @@ class ViewController: UIViewController {
     }
 
 
+    
+    func verifyView(_ verifyView: VerifyView, finisheditWithText: String) {
+        print(finisheditWithText)
+        view.endEditing(true)
+    }
+    
+    func verifyView(_ verifyView: VerifyView, textEndEditing: UITextField) {
+        print(textEndEditing.text)
+        
+        print(textEndEditing.tag)
+    }
+    
 }
 
