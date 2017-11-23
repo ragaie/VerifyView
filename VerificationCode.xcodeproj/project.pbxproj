@@ -21,6 +21,7 @@
 /* Begin PBXFileReference section */
 		81CF7C241FC6FD1B003EB59C /* Screen Shot 2017-11-23 at 2.56.38 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-11-23 at 2.56.38 PM.png"; sourceTree = "<group>"; };
 		81CF7C251FC6FD24003EB59C /* Screen Shot 2017-11-23 at 2.52.11 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-11-23 at 2.52.11 PM.png"; sourceTree = "<group>"; };
+		81CF7C281FC70AF6003EB59C /* ezgif.com-video-to-gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ezgif.com-video-to-gif.gif"; sourceTree = "<group>"; };
 		81F361B81FC5C93300094D9E /* VerificationCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerificationCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F361BB1FC5C93300094D9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81F361BD1FC5C93300094D9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +47,7 @@
 		81CF7C231FC6FC19003EB59C /* screen shot */ = {
 			isa = PBXGroup;
 			children = (
+				81CF7C281FC70AF6003EB59C /* ezgif.com-video-to-gif.gif */,
 				81CF7C251FC6FD24003EB59C /* Screen Shot 2017-11-23 at 2.52.11 PM.png */,
 				81CF7C241FC6FD1B003EB59C /* Screen Shot 2017-11-23 at 2.56.38 PM.png */,
 			);
