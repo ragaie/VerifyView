@@ -17,9 +17,9 @@ this free easy component for add verify number code for ios.
   ![alt tag](https://github.com/ragaie/VerifyView/blob/master/screen%20shot/Screen%20Shot%202017-11-23%20at%202.56.38%20PM.png)
 
 
---swift
+--swift{
 dfsdfds
-
+}
 # MIT License
 
 Copyright (c) 2017 ragaie alfy fahmey
